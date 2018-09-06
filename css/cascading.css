@@ -1,3 +1,24 @@
-head {
- background-image: url(href="/img/Background.jpg");
+body {
+	background-image: url(../img/Background.jpg);
+	background-attachment: fixed;
+}
+
+.logo{
+
+}
+
+.jumbotron{
+	background-color: #9A6CF7;
+	opacity: 0.5;
+
+}
+
+.navbar{
+	width: 100%;
+	background-color: #F8E4FC;
+}
+
+.container1{
+	max-width: 100%;
+	display: block;
 }
