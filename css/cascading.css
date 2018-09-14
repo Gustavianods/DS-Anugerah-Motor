@@ -1,6 +1,8 @@
 body {
 	background-image: url(../img/Background.jpg);
 	background-attachment: fixed;
+	height: 100%;
+	display: block;
 }
 
 .logo{
@@ -12,13 +14,15 @@ body {
 	opacity: 0.5;
 
 }
-
-
-
-.container1{
-	display: flex;
-	align-items: center;
+.header{
+	object-fit: fill;
 }
+
+
+/**.container{
+	background-image: url(../img/Untitled-1.jpg);
+	background-size: cover;
+}**/
 
 .container2{
 	max-width: 100%;
@@ -29,7 +33,9 @@ body {
 	padding-left: 25%;
 }
 
-
+.header > img{
+	background-size: cover;
+}
 
 .container2 > ul > li{
 	padding-right: 30px;
