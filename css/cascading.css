@@ -6,6 +6,7 @@ html, body{
 body {
 	background-image: url(../img/Background.jpg);
 	background-attachment: fixed;
+	font-family: 'Roboto', sans-serif;
 }
 .logo{
 	float: left;
@@ -16,6 +17,7 @@ body {
 	background-size: cover;
 	background-image: url(../img/Untitled-2.jpg);
 	height: 100%;
+	background-attachment: fixed;
 }
 .home{
 	height: 100%;
@@ -32,4 +34,25 @@ a.nav-item{
 .bg-dark-scrolled{
 	background-color: white;
 }
-
+.box-home-inner{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.inner-home{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.inner-home h1{
+	color: white;
+	font-size: 80px;
+	font-weight: 120px;
+	text-transform: uppercase;
+}
+.inner-home p{
+	color: white;
+	font-size: 50px;
+	font-family: 'Lora', serif;
+	margin: 0 20 0 20;
+}
