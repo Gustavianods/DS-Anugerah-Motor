@@ -4,9 +4,11 @@ html, body{
 
 
 body {
-	background-image: url(../img/Background.jpg);
+	/**background-image: url(../img/Background.jpg);**/
 	background-attachment: fixed;
 	font-family: 'Roboto', sans-serif;
+	animation-delay: .1s;
+	animation-duration: .5s;
 }
 .logo{
 	float: left;
@@ -46,13 +48,40 @@ a.nav-item{
 }
 .inner-home h1{
 	color: white;
-	font-size: 80px;
-	font-weight: 120px;
+	font-size: 50px;
+	font-weight: 1000;
 	text-transform: uppercase;
+	margin-bottom: 0;
 }
 .inner-home p{
 	color: white;
-	font-size: 50px;
+	font-size: 15px;
 	font-family: 'Lora', serif;
-	margin: 0 20 0 20;
+	font-size: 25px;
+	margin-bottom: 0;
+}
+.our-services{
+	text-align: center;
+	color: #5A5A5A;
+}
+.our-services{
+	height: auto;
+}
+/**.item-icon1{
+	background-color: #BCBCBC;
+}**/	
+.our-services{
+	background-color: white;
+}	
+/**.item-icon3{
+	background-color: #BCBCBC;
+}
+.item-icon4{
+	background-color: #959494;
+}	**/
+.col-md-3{
+	padding: 0;
+}
+.title{
+	color: #FC963B;
 }
