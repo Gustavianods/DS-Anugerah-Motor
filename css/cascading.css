@@ -85,3 +85,44 @@ a.nav-item{
 .title{
 	color: #FC963B;
 }
+.img1{
+	display: block;
+}
+.inner-box-img1{
+	position: absolute;
+	display: inline-block;
+    top: 25%;
+    left: 28%;
+    height: auto;
+    width: auto;
+   	max-width: 40%;
+    background-color: rgb(255,138,0,.85);
+    text-align: justify;
+}
+.inner-box-img1 > h1{
+	color: #FBB56F;
+}
+.inner-service{
+	margin-top: 50px;
+	position: relative;
+}
+.container{
+	margin-left: auto;
+}
+.titel-service-box{
+	text-align: center;
+	width: 100%;
+}
+.our-service-title{
+	color: #FD961D;
+
+}
+.title-service-box{
+	margin-top: 50px;
+}
+.avbar-toggler{
+	color: black;
+}
+.text-our-service-bd{
+	padding: 25,25;
+}
